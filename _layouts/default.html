@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,600italic,300,300italic,400italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pills/1.0.1/pills.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/style.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="description" content="games from a guy">
+        <meta name="keywords" content="HTML,CSS,JavaScript,Programming,Resume,Go,Harrison,Shoebridge">
+        <meta name="author" content="Harrison Shoebridge">
+
+        <meta property="og:url" content="{{ site.baseurl }}">
+        <meta property="og:title" content="paked's games">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="a collection of projects, failed projects, and other things.">
+        <meta property="og:image" content="https://harrison.tech/img/la_hacks.jpg">
+    </head>
+
+    <body>
+        <div class="row">
+            <div class="column whole">
+                <h1>{{ page.title }}</h1>
+
+                {{ content }}
+            </div>
+        </div>
+    </body>
+</html>
