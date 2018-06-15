@@ -1,0 +1,72 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+
+    background-color: #050505;
+}
+
+.row {
+    display: flex;
+}
+
+@media (max-width: 599px) {
+    .row {
+        display: block;
+    }
+}
+
+.me {
+    align-self: center;
+}
+
+#profile {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.project-list {
+    padding: 0;
+}
+
+.project-list li {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tagline {
+    font-size: 14px;
+}
+
+.date {
+    font-size: 14px;
+    padding-bottom: 4px;
+}
+
+.placeholder {
+    text-align: center;
+
+    padding-top: 10%;
+
+    width: 100%;
+    /* hack: this is what size images get resized to in my browser, unclear if works elsewhere. */
+    height: 136px;
+
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:link {
+    color: #5FCFF5;
+}
+
+a.no-underline {
+    text-decoration: none;
+}
